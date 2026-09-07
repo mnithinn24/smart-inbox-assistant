@@ -1,0 +1,18 @@
+﻿{
+  "message_id": 23,
+  "source": "Email from nithin <mnithinn24@gmail.com>, Sep 6 2026",
+  "classification": {
+    "category": "ICSR",
+    "confidence_score": 0.99,
+    "ai_reason": "The report contains all four necessary elements for an ICSR: an identifiable patient (45-year-old male), a reporter (physician), a specific product (Product ABC 10mg), and adverse events (nausea and dizziness).",
+    "reviewer_action": "ACCEPTED"
+  },
+  "patient": { "age": "45 years", "sex": "Male", "weight": "Not stated", "height": "Not stated", "relevant_history": "Not stated" },
+  "reporter": { "name": "Not stated", "role": "Physician", "country": "India" },
+  "product": { "name": "Product ABC", "dose": "10 mg", "route": "Oral", "start_date": "Not stated", "stop_date": "Not stated" },
+  "reaction": { "description": "Nausea and dizziness", "onset_date": "5 September 2026", "outcome": "Not stated" },
+  "severity": { "is_serious": "Unknown", "seriousness_criteria": "Not stated" },
+  "ai_narrative": "A 45-year-old male patient experienced nausea and dizziness after taking Product ABC 10mg orally. The reaction started on 5 September 2026. The case was reported by a physician from India.",
+  "source_references": { "patient_age": "Email body line 1", "reaction": "Email body line 3", "product": "Email body line 3", "reporter_role": "Email body line 5" },
+  "field_confidence": { "age": 0.99, "sex": 0.99, "product_name": 0.99, "dose": 0.98, "reaction": 0.99, "onset_date": 0.95 }
+}

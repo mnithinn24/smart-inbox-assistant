@@ -1,0 +1,51 @@
+# Smart Inbox Assistant - .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+env/
+.venv/
+
+# Environment — NEVER commit real credentials
+.env
+*.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node / Angular
+node_modules/
+frontend/dist/
+frontend/.angular/
+
+# Uploads (user-uploaded files)
+uploads/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary test/debug scripts (not part of submission)
+backend/test_imap.py
+backend/generate_test_pdfs.py
+backend/generate_simple_pdf.py
+backend/make_sample_pdfs.py
+backend/build_pdfs.py
+backend/create_pdfs.py
+
+# Generated test PDFs (tracked in sample-outputs/ instead)
+sample_pdfs/
+*.pdf.tmp

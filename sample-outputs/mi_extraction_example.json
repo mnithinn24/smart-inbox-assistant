@@ -1,0 +1,18 @@
+﻿{
+  "message_id": 12,
+  "source": "Email from medical.affairs@partner-hospital.example.com",
+  "classification": {
+    "category": "MI",
+    "confidence_score": 0.98,
+    "ai_reason": "Email asks questions about Hepatoguard dosing and interactions with no adverse event reported.",
+    "reviewer_action": "ACCEPTED"
+  },
+  "product_topic": "Hepatoguard",
+  "questions_asked": [
+    "What is the recommended dosing schedule for Hepatoguard in pediatric patients?",
+    "Are there known interactions with anticoagulants?",
+    "Is Hepatoguard approved for use in patients with renal impairment?"
+  ],
+  "source_references": { "product": "Email subject and body", "questions": "Email body paragraphs 1-3" },
+  "field_confidence": { "product_topic": 0.99, "questions_asked": 0.96 }
+}

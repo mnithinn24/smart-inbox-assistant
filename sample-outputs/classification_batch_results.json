@@ -1,0 +1,16 @@
+﻿{
+  "processing_summary": {
+    "total_processed": 15,
+    "avg_processing_time_ms": 4820,
+    "classifications": [
+      { "message_id": 23, "category": "ICSR", "confidence": 0.99, "status": "ACCEPTED" },
+      { "message_id": 22, "category": "ICSR", "confidence": 0.98, "status": "ACCEPTED" },
+      { "message_id": 12, "category": "MI", "confidence": 0.98, "status": "ACCEPTED" },
+      { "message_id": 9, "category": "NOT_RELEVANT", "confidence": 0.0, "status": "PENDING", "note": "Gemini 503 error during initial classification — reprocess to fix" },
+      { "message_id": 24, "category": "NOT_RELEVANT", "confidence": 1.0, "status": "PENDING" },
+      { "message_id": 25, "category": "NOT_RELEVANT", "confidence": 1.0, "status": "PENDING" }
+    ]
+  },
+  "ai_model": "gemini-2.0-flash",
+  "audit_trail": "Every AI classification and reviewer action timestamped in audit_log table"
+}

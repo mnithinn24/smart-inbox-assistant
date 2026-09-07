@@ -1,0 +1,16 @@
+﻿{
+  "message_id": 9,
+  "source": "Email from logistics@hospital-supply.example.com",
+  "classification": {
+    "category": "PQC",
+    "confidence_score": 0.87,
+    "ai_reason": "Email describes wrong label on a drug shipment — a physical product quality issue.",
+    "reviewer_action": "PENDING"
+  },
+  "product_name": "Neurova",
+  "batch_lot_number": "Not stated",
+  "complaint_description": "Packaging Error — Wrong Label on Neurova Shipment. Label mismatch detected on received units.",
+  "photo_mentioned": "Unknown",
+  "source_references": { "product": "Email subject", "complaint": "Email body" },
+  "field_confidence": { "product_name": 0.90, "complaint_description": 0.87 }
+}
